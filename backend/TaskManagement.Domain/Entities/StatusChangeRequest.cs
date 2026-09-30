@@ -14,6 +14,8 @@ public class StatusChangeRequest
 
     public User RequestedBy { get; set; } = null!;
 
+    public TaskItemStatus RequestedFromStatus { get; set; }
+
     public TaskItemStatus RequestedStatus { get; set; }
 
     public StatusChangeRequestStatus Status { get; set; }
